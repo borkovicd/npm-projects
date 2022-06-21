@@ -1,7 +1,13 @@
 @use "../custom" as *;
 
 .img-slider{
-    background: linear-gradient(to top,rgba($primary,.975), rgba($primary,.45), rgba($secondary,.3)),url("/BlackDiamondClub/assets/img/section-bg.jpg");
+    h3{
+        color: $secondary;
+        font-size: 4rem;
+        text-shadow: 0 0 5px $primary;
+    }
+    border: none;
+    background: linear-gradient(to top,rgba($primary,.985), rgba($primary,.45), rgba($primary,.6)),url("/BlackDiamondClub/assets/img/section-bg.jpg");
     background-position: center;
     background-size: cover;
     background-attachment:scroll;
