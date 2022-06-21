@@ -1,0 +1,29 @@
+{
+  "name": "black-diamond",
+  "version": "1.0.0",
+  "description": "Black Diamon Club",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch --style=expanded scss:assets/css",
+    "sass-prod": "sass --no-source-map --style=compressed scss:assets/css",
+    "build": "hugo",
+    "create": "hugo new",
+    "serve": "hugo server"
+  },
+  "keywords": [
+    "blackdiamond",
+    "diamond",
+    "club"
+  ],
+  "author": "Dejan Borkovic",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.1.3",
+    "fontawesome": "^5.6.3",
+    "hugo-bin": "^0.88.2",
+    "sass": "^1.52.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7"
+  }
+}

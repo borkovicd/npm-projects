@@ -1,0 +1,39 @@
+
+
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// scss-docs-start color-variables
+
+$yellow:  #ffc107;
+
+$primary:#000;
+$secondary: #ffc107;
+
+
+$navbar-dark-color:                 rgba($secondary, .55);
+$navbar-dark-hover-color:           rgba($primary, .75);
+$navbar-dark-active-color:          $secondary;
+$navbar-dark-disabled-color:        rgba($white, .25);
+$navbar-dark-toggler-icon-bg:       url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='#{$navbar-dark-color}' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/></svg>") !default;
+$navbar-dark-toggler-border-color:  rgba($secondary, .1);
+
+$dropdown-bg:                       $secondary;
+$dropdown-color:                    $primary;
+$dropdown-link-hover-color:         $secondary;
+$dropdown-link-hover-bg:            $primary;
+$dropdown-link-active-color:        $secondary;
+$dropdown-link-active-bg:           $black;
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+// @import ""

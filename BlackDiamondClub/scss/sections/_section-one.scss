@@ -1,0 +1,18 @@
+@use "../custom" as *;
+.section-one{
+    background: linear-gradient(to bottom,rgba($primary,.975), rgba($primary,.45), rgba($secondary,.3)),url("/BlackDiamondClub/assets/img/section-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    h2{
+        text-shadow: 0 0 1px $primary;
+    }
+    .container{
+        .card {
+            margin: 10px 5px;
+            padding: 5px 5px;
+            border: 1px solid $secondary;
+            box-shadow: 0 0 10px $primary;
+        }
+    }
+}

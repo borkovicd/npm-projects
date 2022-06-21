@@ -1,0 +1,23 @@
+// Bootstrap custom parts
+@use "../scss/custom" as *;
+// SECTIONS
+@use "../scss/sections/hero" as *;
+@use "../scss/sections/section-one" as *;
+@use "../scss/sections/loader" as *;
+@use "../scss/sections/caro-img" as *;
+
+.navbar {
+    .dropdown-item {
+        color: $secondary;
+
+        &:hover {
+            background: $secondary !important;
+            color: $primary !important;
+        }
+    }
+
+}
+
+.holder {
+    width: 100%;
+}

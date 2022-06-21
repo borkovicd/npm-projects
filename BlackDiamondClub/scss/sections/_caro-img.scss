@@ -1,0 +1,31 @@
+@use "../custom" as *;
+
+.img-slider{
+    background: linear-gradient(to top,rgba($primary,.975), rgba($primary,.45), rgba($secondary,.3)),url("/BlackDiamondClub/assets/img/section-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment:scroll;
+    .caro-img{
+        height: 100vh;
+        
+        .carousel {
+            height: 50%;
+            width: 100%;
+            border: 1px solid $secondary;
+            box-shadow: 0 0 5px $primary;
+            .carousel-inner{
+                height: 100%;
+                width: 100%;
+                .carousel-item {
+                    height: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        
+                    }
+                }
+            }
+        }
+        
+    }
+}

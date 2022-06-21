@@ -1,0 +1,7 @@
+@use "../scss/custom" as *;
+body{
+    background-color: $primary;
+}   
+.shadow{
+    box-shadow: 0 0 10px $secondary!important;
+}
