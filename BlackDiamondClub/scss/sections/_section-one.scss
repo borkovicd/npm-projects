@@ -11,7 +11,8 @@
     }
     .container{
         .card {
-            margin: 10px 5px;
+            height: 100%;
+            // margin-top: 10px auto!important;
             padding: 5px 5px;
             border: 1px solid $secondary;
             box-shadow: 0 0 10px $primary;

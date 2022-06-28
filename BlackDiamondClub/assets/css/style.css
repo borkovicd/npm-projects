@@ -10126,7 +10126,7 @@ textarea.form-control-lg {
   text-shadow: 0 0 1px #000;
 }
 .section-one .container .card {
-  margin: 10px 5px;
+  height: 100%;
   padding: 5px 5px;
   border: 1px solid #fac05c;
   box-shadow: 0 0 10px #000;
@@ -10228,6 +10228,20 @@ textarea.form-control-lg {
 .img-slider .caro-img .carousel .carousel-inner .carousel-item img {
   height: 100%;
   width: 100%;
+}
+
+footer {
+  color: #fac05c;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.85)), url("/BlackDiamondClub/assets/img/hero-bg.jpg");
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer .row h6 {
+  font-size: 1.4rem;
+}
+footer .row a {
+  font-size: 1.2rem;
+  text-shadow: 0 0 1px #000;
 }
 
 .navbar .dropdown-item {
