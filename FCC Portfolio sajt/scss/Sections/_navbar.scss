@@ -1,0 +1,22 @@
+@use '../custom' as *;
+@use '../Components/mixins' as *;
+.menu{
+    @include media-breakpoint-down(sm) {
+        width: 100%;
+    }
+    @include gradient;
+    // box-shadow: 0 0 5px $secondary;
+    li {
+        padding: 0 .7rem;
+        a{
+            color: $black!important;
+            text-transform: capitalize;
+            font-weight: 600;
+            transition: .6s ease;
+            &:hover{
+                color: $primary!important;
+                text-shadow: 0 0 3px $black;
+            }
+        }
+    }
+}

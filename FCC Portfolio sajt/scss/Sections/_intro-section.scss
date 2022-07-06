@@ -1,0 +1,79 @@
+@use '../custom' as *;
+@use '../Components/mixins' as *;
+
+.intro-section {
+    @include gradient;
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+}
+
+.intros {
+    svg {
+        margin-top: -400px;
+    }
+    h1{
+        // text-shadow: 0 0 1px $black;
+        
+    }
+
+    .video-box {
+        position: relative;
+
+        a {
+            @include absoluteCenter;
+            @include media-breakpoint-down(sm){
+                @include absoluteCenter567;
+            }
+            @include media-breakpoint-down(lg){
+                @include absoluteCenter567;
+                
+            }
+
+            span {}
+
+            i {
+                font-size: 6rem;
+                color: $secondary;
+
+            }
+        }
+    }
+}
+
+.border-animation {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border: 0.55rem solid $black;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    animation:pulse-border 1s linear infinite;
+    animation-delay: 1s;
+    // &--border-1 {
+    //     animation-delay: 1s;
+    // }
+
+    // &--border-2 {
+    //     animation-delay: 1.5s;
+    // }
+}
+.border-animation2 {
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border: 0.55rem solid $black;
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    animation:pulse-border 1.5s linear infinite;
+    animation-delay: 1.5s;
+    // &--border-1 {
+    //     animation-delay: 1s;
+    // }
+
+    // &--border-2 {
+    //     animation-delay: 1.5s;
+    // }
+}

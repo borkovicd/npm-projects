@@ -1,0 +1,23 @@
+@use 'custom';
+// IMPORT COMPONENTS
+@use 'Components/animations';
+@use 'Components/buttons';
+@use 'Components/mixins';
+@use 'Components/typography';
+
+//IMPORT COMPONENTS
+@use 'Sections/navbar';
+@use 'Sections/intro-section';
+@use 'Sections/companies';
+@use 'Sections/sevices';
+@use 'Sections/testimonials';
+@use 'Sections/faq';
+@use 'Sections/portfolio';
+@use 'Sections/get-started';
+@use 'Sections/footer';
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
