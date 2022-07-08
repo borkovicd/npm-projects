@@ -12,10 +12,7 @@
     svg {
         margin-top: -400px;
     }
-    h1{
-        // text-shadow: 0 0 1px $black;
-        
-    }
+    
 
     .video-box {
         position: relative;
@@ -29,8 +26,6 @@
                 @include absoluteCenter567;
                 
             }
-
-            span {}
 
             i {
                 font-size: 6rem;

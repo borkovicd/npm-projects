@@ -10157,6 +10157,26 @@ textarea.form-control-lg {
   color: #F9C10B;
 }
 
+.heading-line::before {
+  content: "";
+  width: 10rem;
+  height: 0.1rem;
+  display: block;
+  background-color: #ffa202;
+  margin: 0 auto;
+}
+
+.heading-line::after {
+  content: "";
+  width: 2rem;
+  height: 0.3rem;
+  display: block;
+  background-color: #ffa202;
+  padding-top: 0.5rem;
+  margin: 0 auto;
+  border-radius: 0 0 20px 20px;
+}
+
 .display-2 {
   margin-bottom: 2rem;
   text-transform: capitalize;
@@ -10171,6 +10191,30 @@ textarea.form-control-lg {
   display: block;
   margin-top: 1.2rem;
   text-transform: none;
+}
+
+.display-3 {
+  font-family: "Poppins", sans-serif;
+}
+.display-3--title {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  background-image: linear-gradient(to right, #ffa202, #F9C10B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (min-width: 992px) {
+  .display-3--title {
+    font-size: 1.8rem;
+  }
+}
+
+.border-right {
+  border-right: 0.1rem solid #dee2e6;
+  height: 100%;
 }
 
 .menu {
@@ -10257,6 +10301,60 @@ textarea.form-control-lg {
   left: 0;
   animation: pulse-border 1.5s linear infinite;
   animation-delay: 1.5s;
+}
+
+.companies {
+  padding: 0 0 5rem 0;
+}
+.companies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  text-align: center;
+  position: relative;
+}
+.companies__logo-box img {
+  height: 100%;
+  filter: grayscale(120);
+  transition: 0.4s ease;
+}
+.companies__logo-box img:hover {
+  filter: none;
+}
+
+.services {
+  position: relative;
+  padding: 1rem 0;
+}
+.services__content {
+  padding: 1rem;
+  margin-top: 0rem;
+}
+.services__content p {
+  font-size: 0.8rem;
+}
+@media (min-width: 992px) {
+  .services__content p {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 992px) {
+  .services__content {
+    margin-top: 5rem;
+  }
+}
+.services__content .icon {
+  font-size: 1.5rem;
+  color: #ffa202;
+}
+@media (min-width: 992px) {
+  .services__content .icon {
+    font-size: 2.5rem;
+  }
+}
+.services__pic {
+  max-width: 100%;
 }
 
 * {
