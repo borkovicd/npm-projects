@@ -12,7 +12,7 @@
     border: 0.1rem solid rgba($secondary,.6);
     background-color: $white;
     color: $primary;
-    transition:.6s ease-in-out;
+    transition:.4s ease-in-out;
     display: block;
     span{
         position: absolute;
@@ -23,7 +23,7 @@
         right: 5px;
         transform: translateY(-50%);
         border-radius: 50%;
-        transition:.6s ease-in-out;
+        transition:.4s ease-in-out;
         i {
             color: $black;
             font-size: 1rem;
